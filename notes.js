@@ -133,14 +133,51 @@
 //       else if(operand==='*'){
 //          operand = 'mul';
 //       }
-      
-      
-  
 //    }
    
 //    calculator(operand,input1,input2);
 // }
 
+
+
+// different ways to create the object
+
+// let obj1 = {
+//    name:'arif',
+//    age:23
+// }
+// console.log(obj1.name);
+
+// #############################################
+
+// let obj2 = new Object({
+//    name:'arif',
+//    age:23,
+// })
+// console.log(obj2.name);
+
+
+// #################################################
+
+// function details(name,age){
+//    this.name=name;
+//    this.age=age;
+// }
+// let obj3 = new details('arif',23);
+// console.log(obj3.name);
+
+// #####################################################
+
+
+// class objClass{
+//    constructor(name,age){
+//       this.name=name;
+//       this.age = age;
+//    }
+// }
+
+// let obj4 = new objClass('arif',23);
+// console.log(obj4.name);
 
 //###########################shallow copy of Object..#################################
 
@@ -952,22 +989,6 @@
 // console.log(a);
 // console.log(b);
 // console.log(c);
-
-// -----------Prototype------------------
-
-// let arr= [];
-// console.log(arr.__proto__);
-// console.log(arr.__proto__.__proto__);
-// console.log(arr.__proto__.__proto__.__proto__);
-
-// let obj = {};
-// console.log(obj.__proto__);
-// console.log(obj.__proto__.__proto__);
-
-// function fun(){};
-// console.log(fun.__proto__);
-// console.log(fun.__proto__.__proto__);
-// console.log(fun.__proto__.__proto__.__proto__);
 
 // ------------------String-----------------
 
